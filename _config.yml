@@ -1,0 +1,37 @@
+title: My Personal Website
+description: A blog and portfolio site for showcasing my projects and experiences.
+author: John Doe
+url: "https://username.github.io" # Replace with your GitHub Pages URL
+baseurl: "" # Leave blank for GitHub Pages, set to your custom domain path otherwise
+
+theme: jekyll-theme-minimal # Replace with the name of your chosen theme
+paginate: 5 # Number of posts per page
+
+# Example using ISO 8601 format (YYYY-MM-DD)
+date_format: "%Y-%m-%d"
+
+# Example navigation links
+navbar_links:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects
+  - title: Blog
+    url: /blog
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+  # exclude:
+  # - README.md
+  # - drafts/
+
+  collections:
+  blog:
+    output: true
+    permalink: /blog/:title
+  projects:
+    output: true
+    permalink: /projects/:title
+
