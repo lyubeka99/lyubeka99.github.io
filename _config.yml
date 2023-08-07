@@ -27,11 +27,11 @@ plugins:
   # - README.md
   # - drafts/
 
-  collections:
-  blog:
+collections:
+  - blog:
     output: true
     permalink: /blog/:title
-  projects:
+  - projects:
     output: true
     permalink: /projects/:title
 
