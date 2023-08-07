@@ -1,7 +1,7 @@
 title: My Personal Website
 description: A blog and portfolio site for showcasing my projects and experiences.
-author: John Doe
-url: "https://username.github.io" # Replace with your GitHub Pages URL
+author: Lyuben Petrov
+url: "https://lyubeka99.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # Leave blank for GitHub Pages, set to your custom domain path otherwise
 
 theme: jekyll-theme-minimal # Replace with the name of your chosen theme
