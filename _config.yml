@@ -6,6 +6,8 @@ url: "https://lyubeka99.github.io/" # Replace with your GitHub Pages URL
 # Theme (optional)
 # If you want to use a Jekyll theme, specify it here. If not, comment or remove this line.
 remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Base URL (optional)
 # If you're using a custom domain, specify the base URL of your site. If hosting on GitHub Pages, leave this blank.
@@ -31,8 +33,8 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 # Plugins (optional)
 # Uncomment and add Jekyll plugins here if needed.
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude (optional)
 # Specify any files or directories you want to exclude from the build process.
