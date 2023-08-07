@@ -1,37 +1,51 @@
-title: My Personal Website
-description: A blog and portfolio site for showcasing my projects and experiences.
-author: Lyuben Petrov
+# Site settings
+title: Your Site Title
+description: Your site description
 url: "https://lyubeka99.github.io" # Replace with your GitHub Pages URL
-baseurl: "" # Leave blank for GitHub Pages, set to your custom domain path otherwise
 
-theme: jekyll-theme-minimal # Replace with the name of your chosen theme
-paginate: 5 # Number of posts per page
+# Theme (optional)
+# If you want to use a Jekyll theme, specify it here. If not, comment or remove this line.
+remote_theme: pages-themes/cayman@v0.2.0
 
-# Example using ISO 8601 format (YYYY-MM-DD)
-date_format: "%Y-%m-%d"
+# Base URL (optional)
+# If you're using a custom domain, specify the base URL of your site. If hosting on GitHub Pages, leave this blank.
+# baseurl: ""
 
-# Example navigation links
-navbar_links:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects
-  - title: Blog
-    url: /blog
+# Pagination (optional)
+# Uncomment and set the number of posts per page if you want pagination on your blog or projects list.
+# paginate: 5 # Number of posts per page
 
+# Date Format (optional)
+# Choose the date format you prefer to display on your site.
+# date_format: "%Y-%m-%d"
+
+# Navigation Links (optional)
+# Uncomment and modify these if you want to have custom navigation links on your site.
+# navbar_links:
+#   - title: Home
+#     url: /
+#   - title: Projects
+#     url: /projects
+#   - title: Blog
+#     url: /blog
+
+# Plugins (optional)
+# Uncomment and add Jekyll plugins here if needed.
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
-  # exclude:
-  # - README.md
-  # - drafts/
+# Exclude (optional)
+# Specify any files or directories you want to exclude from the build process.
+# exclude:
+#   - README.md
+#   - drafts/
 
+# Collections (optional)
+# Uncomment and define collections if you want to organize your content into separate sections.
 # collections:
-#   - blog:
+#   blog:
 #     output: true
 #     permalink: /blog/:title
-#   - projects:
+#   projects:
 #     output: true
 #     permalink: /projects/:title
-
