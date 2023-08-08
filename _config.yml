@@ -37,9 +37,12 @@ plugins:
 
 # Choose a default layout for pages
 pages-info:
-  - name: "About"
-  - name: "Blog"
-  - name: "Projects"
+  - name-big: "About"
+    name-small: "about"
+  - name-big: "Blog"
+    name-small: "blog"
+  - name-big: "Projects"
+    name-small: "blog"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

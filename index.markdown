@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 # Welcome to my personal blog!
 
 Hello, I am Lyuben Petrov, a security auditor with a software engineering degree. I have a passion for penetration testing and am aspiring to become a skilled penetration tester.
