@@ -1,53 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title: Your Site Title
-description: Your site description
-url: "https://lyubeka99.github.io/" # Replace with your GitHub Pages URL
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Theme (optional)
-# If you want to use a Jekyll theme, specify it here. If not, comment or remove this line.
-remote_theme: pages-themes/cayman@v0.2.0
+title: Lyuben's personal blog
+email: lyubenlp@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  lyubeka99
+author: "Lyuben Petrov"
+
+# Build settings
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-remote-theme
 
-# Base URL (optional)
-# If you're using a custom domain, specify the base URL of your site. If hosting on GitHub Pages, leave this blank.
-# baseurl: ""
+# Choose a default layout for pages
+pages-info:
+  - name: "About"
+  - name: "Blog"
+  - name: "Projects"
 
-# Pagination (optional)
-# Uncomment and set the number of posts per page if you want pagination on your blog or projects list.
-# paginate: 5 # Number of posts per page
-
-# Date Format (optional)
-# Choose the date format you prefer to display on your site.
-# date_format: "%Y-%m-%d"
-
-# Navigation Links (optional)
-# Uncomment and modify these if you want to have custom navigation links on your site.
-# navbar_links:
-#   - title: Home
-#     url: /
-#   - title: Projects
-#     url: /projects
-#   - title: Blog
-#     url: /blog
-
-# Plugins (optional)
-# Uncomment and add Jekyll plugins here if needed.
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-# Exclude (optional)
-# Specify any files or directories you want to exclude from the build process.
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 # exclude:
-#   - README.md
-#   - drafts/
-
-# Collections (optional)
-# Uncomment and define collections if you want to organize your content into separate sections.
-# collections:
-#   blog:
-#     output: true
-#     permalink: /blog/:title
-#   projects:
-#     output: true
-#     permalink: /projects/:title
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
