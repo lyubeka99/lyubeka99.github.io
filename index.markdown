@@ -2,24 +2,22 @@
 layout: default
 ---
 
-# Welcome to my personal blog!
+# Who am I?
 
-Hello, I am Lyuben Petrov, a security auditor with a software engineering degree. I have a passion for penetration testing and am aspiring to become a skilled penetration tester.
+Hey there! I'm Lyuben, a cybersecurity enthusiast and pen testing aficionado. 🕵️‍♂️
 
-## About me
+I graduated with a Bachelor's degree in Software Engineering from Eindhoven University of Technology, where my passion for all things cyber took off. Throughout my studies, I geeked out on everything related to security and even tailored my elective courses to dive deep into the world of Cybersecurity.
 
-I have a strong background in software engineering, which has equipped me with the technical knowledge and skills required to excel in the field of cybersecurity. Throughout my academic and professional journey, I have been involved in various projects, CTFs (Capture The Flag), and other side projects that have allowed me to sharpen my problem-solving and hacking skills.
+Currently, I'm rockin' it as a SOC Auditor at A-lign. My day-to-day involves diving into cybersecurity standards and making sure businesses have their security controls locked down. Whether it's deciphering Active Directory or conquering the intricacies of AWS and Azure, I'm all about understanding and enhancing security measures.
 
-## Blog
+What really gets me pumped? Well, when I'm not chasing down security gaps, I'm diving into CTFs like there's no tomorrow. I'm a HacktheBox Certified Penetration Testing Specialist in the making, and I've got my eyes set on becoming an Offensive Security Certified Professional (OSCP).
 
-In my free time, I love to share my experiences, knowledge, and insights in cybersecurity through my blog. Here, you will find articles related to penetration testing, cybersecurity tools, best practices, and more.
+And guess what? I'm also brewing up something exciting on my blog. I'll be sharing my thoughts on the latest cybersecurity news, walking you through mind-boggling CTFs, and dishing out insights into my cybersecurity journey. So, buckle up, because we're about to dive deep into the world of cyber together!
 
-## Projects
+Feel free to explore my <a href="/assets/placeholder_cv.pdf">resume</a> for all the nitty-gritty details. If you're curious about my journey, my insights, or just want to talk all things cybersecurity, drop me a line. Let's connect!
 
-I take great pride in the projects I’ve worked on. Feel free to explore some of my recent projects related to security, software development, and anything in between.
+Catch you on the secure side,<br>
+Lyuben
 
-## Get in touch
 
-If you would like to connect or have any questions, feel free to contact me.
 
-Thank you for visiting my site!

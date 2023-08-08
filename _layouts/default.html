@@ -19,12 +19,16 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
+          <!-- Generate buttons, links and icons to CV -->
+          <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon" style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
+
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
+          <!-- Generate buttons, links and icons to pages -->
           {% for page in site.pages-info %}
-            <a href="{{ '/' | append: page.name-link | relative_url }}" class="btn btn-github"><span class="icon"></span> {{ page.name-big }} </a>
+            <a href="{{ '/' | append: page.name-link | relative_url }}" class=btn><span class="icon" style="background-image: url('/assets/img/{{ page.name-favicon}}-favicon.png'); background-size: cover;"></span> {{ page.name-big }}</a>
           {% endfor %}
         </section>
       </div>

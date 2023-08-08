@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /about/
 ---
 
 # Welcome to my personal blog!
