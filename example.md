@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[Link to another page](./another-page.html).
+[Link to another page](https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5){:target="_blank"}
 
 There should be whitespace between paragraphs.
 
