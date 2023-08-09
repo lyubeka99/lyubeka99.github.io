@@ -106,3 +106,15 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 .cf { zoom: 1; }
 
 #a-title { text-decoration: none; }
+
+/* custom css for the images in the projects index page*/
+.project { display: flex; align-items: center; margin-bottom: 20px; }
+
+.project-summary { flex: 1; }
+
+.project-image { flex: 0 0 auto; order: 2; /* This changes the order of appearance */ margin-left: 20px; }
+
+.project-image img { max-width: 150px; /* Adjust the size as needed */ height: auto; }
+
+/* give this class to images that you want centered */
+.center-image { display: block; margin: 0 auto; }

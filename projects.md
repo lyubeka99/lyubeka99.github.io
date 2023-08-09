@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<!-- custom css for the project images -->
-<head>
-  <!-- ... other head elements ... -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/custom.css">
-</head>
 
 <h1>Projects</h1>
 
