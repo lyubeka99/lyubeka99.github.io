@@ -47,6 +47,11 @@ pages-info:
     name-link: "projects"
     name-favicon: "projects"
 
+# Define the projects as a collection in order to iterate over them
+collections:
+  projects:
+    output: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
