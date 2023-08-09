@@ -2,8 +2,16 @@
 layout: default
 ---
 
-## Welcome my blog page. Here I will be sharing my opinions on recent and old cyber news. Coming soon!
 
-_yay_
+<h1>Blog Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
 [back](./about)
