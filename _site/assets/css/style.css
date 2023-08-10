@@ -105,7 +105,7 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 .cf { zoom: 1; }
 
-#a-title { text-decoration: none; }
+#a-title { text-decoration: none; /* add margn-right so menu appears on the right */ margin-right: auto; /* Push menu to the right */ }
 
 /* custom css for the images in the projects index page*/
 .project { display: flex; align-items: center; margin-bottom: 20px; }
@@ -118,3 +118,33 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 /* give this class to images that you want centered */
 .center-image { display: block; margin: 0 auto; }
+
+/* custom css for the menu */
+.menu-toggle { display: none; }
+
+.menu-button { display: block; cursor: pointer; }
+
+.menu { display: flex; justify-content: space-between; /* Separate title and menu */ align-items: center; }
+
+.title-container { flex: 1; /* Allow title to take available space */ }
+
+.menu-container { display: flex; align-items: center; margin-top: 0.5%; }
+
+.menu-list { list-style: none; padding: 0; margin: 0; display: flex; }
+
+.menu-list li { margin-right: 30px; list-style: none; }
+
+.menu-list a { color: #b5e853; /* Change to your desired color */ font-size: 20px; /* Change to your desired font size */ text-decoration: none; /* Remove underline */ /* Add any other styling properties you want */ }
+
+.menu-button { cursor: pointer; display: none; /* Hide the label on larger screens */ }
+
+.menu-icon { font-size: 24px; /* Adjust size as needed */ display: inline-block; vertical-align: middle; /* Align the icon vertically */ }
+
+@media screen and (max-width: 768px) { .menu-button { display: block; /* Show the label on smaller screens */ }
+  .menu-icon { display: inline-block; /* Show the menu icon */ }
+  .menu-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; }
+  .menu-list li { margin-right: 20px; list-style: none; }
+  .menu-list li:hover { background-color: #dddddd1e; /* Light gray on hover */ }
+  .menu-dropdown { display: none; position: absolute; top: 50px; right: 0; background-color: #151515; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; }
+  .menu-dropdown li { margin-bottom: 10px; /* Adjust the value to increase or decrease spacing */ }
+  .menu-toggle:checked ~ .menu-dropdown { display: block; /* Show the list when checkbox is checked */ transform: scaleY(1); /* Remove the scaleY from here if needed */ opacity: 1; /* Ensure full opacity */ visibility: visible; /* Ensure visibility */ } }

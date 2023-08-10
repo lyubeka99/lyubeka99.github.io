@@ -1,43 +1,81 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-  </head>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
 
-  <body>
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+  {% seo %}
+</head>
 
-        <section id="downloads">
-          <!-- Generate buttons, links and icons to CV -->
-          <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon" style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
-
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <!-- Generate buttons, links and icons to pages -->
-          {% for page in site.pages-info %}
-            <a href="{{ '/' | append: page.name-link | relative_url }}" class=btn><span class="icon" style="background-image: url('/assets/img/{{ page.name-favicon}}-favicon.png'); background-size: cover;"></span> {{ page.name-big }}</a>
-          {% endfor %}
-        </section>
-      </div>
-    </header>
-
+<body>
+  <header>
     <div class="container">
-      <section id="main_content">
-        {{ content }}
+      <nav class="menu">
+        <div class="title-container">
+          <a id="a-title" href="{{ '/' | relative_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+        </div>
+        <div class="menu-container">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-button">
+            <span class="menu-icon">&#9776;</span>
+          </label>
+          <div class="menu-dropdown">
+            <ul class="menu-list">
+              <li><a href="{{ '/' | relative_url }}">About Me</a></li>
+              <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+              <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+      <section id="downloads">
+        <!-- Generate buttons, links and icons to CV -->
+        <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon"
+            style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
+
+        {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+        {% endif %}
+
+        <!-- Generate buttons, links and icons to pages -->
+        <!-- {% for page in site.pages-info %}
+        <a href="{{ '/' | append: page.name-link | relative_url }}" class=btn><span class="icon"
+            style="background-image: url('/assets/img/{{ page.name-favicon}}-favicon.png'); background-size: cover;"></span>
+          {{ page.name-big }}</a>
+        {% endfor %} -->
       </section>
     </div>
-  </body>
+  </header>
+
+  <div class="container">
+    <section id="main_content">
+      {{ content }}
+    </section>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.querySelector("#menu-toggle");
+      const menuDropdown = document.querySelector(".menu-dropdown");
+
+      menuToggle.addEventListener("change", function () {
+        if (this.checked) {
+          menuDropdown.classList.add("show-dropdown");
+        } else {
+          menuDropdown.classList.remove("show-dropdown");
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>

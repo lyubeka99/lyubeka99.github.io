@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=19f5261865c57434baca619976593845e033ddd7">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<html lang=" en-US">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css?v=d34ff8921dc3403517380cbc6e9e98096ab47396">
+  <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 
 <!-- Setup theme-color -->
@@ -23,7 +24,7 @@
 
 <!-- end custom head snippets -->
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Who am I? | Lyuben’s personal blog</title>
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Who am I?" />
@@ -41,36 +42,62 @@
 {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Lyuben Petrov"},"description":"Write an awesome description for your new site here. You can edit this # line in _config.yml. It will appear in your document head meta (for # Google search results) and in your feed.xml site description.","headline":"Who am I?","name":"Lyuben’s personal blog","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <div class="container">
-        <a id="a-title" href="/">
-          <h1>Lyuben's personal blog</h1>
-        </a>
-        <h2># Write an awesome description for your new site here. You can edit this # line in _config.yml. It will appear in your document head meta (for # Google search results) and in your feed.xml site description.</h2>
-
-        <section id="downloads">
-          <!-- Generate buttons, links and icons to CV -->
-          <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon" style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
-
-          
-          <!-- Generate buttons, links and icons to pages -->
-          
-            <a href="/" class=btn><span class="icon" style="background-image: url('/assets/img/about-favicon.png'); background-size: cover;"></span> About</a>
-          
-            <a href="/blog" class=btn><span class="icon" style="background-image: url('/assets/img/blog-favicon.png'); background-size: cover;"></span> Blog</a>
-          
-            <a href="/projects" class=btn><span class="icon" style="background-image: url('/assets/img/projects-favicon.png'); background-size: cover;"></span> Projects</a>
-          
-        </section>
-      </div>
-    </header>
-
+<body>
+  <header>
     <div class="container">
-      <section id="main_content">
-        <h1 id="who-am-i">Who am I?</h1>
+      <nav class="menu">
+        <div class="title-container">
+          <a id="a-title" href="/">
+            <h1>Lyuben's personal blog</h1>
+          </a>
+        </div>
+        <div class="menu-container">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-button">
+            <span class="menu-icon">&#9776;</span>
+          </label>
+          <div class="menu-dropdown">
+            <ul class="menu-list">
+              <li><a href="/">About Me</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/projects">Projects</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h2># Write an awesome description for your new site here. You can edit this # line in _config.yml. It will appear in your document head meta (for # Google search results) and in your feed.xml site description.</h2>
+
+      <section id="downloads">
+        <!-- Generate buttons, links and icons to CV -->
+        <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon"
+            style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
+
+        
+
+        <!-- Generate buttons, links and icons to pages -->
+        <!-- 
+        <a href="/" class=btn><span class="icon"
+            style="background-image: url('/assets/img/about-favicon.png'); background-size: cover;"></span>
+          About</a>
+        
+        <a href="/blog" class=btn><span class="icon"
+            style="background-image: url('/assets/img/blog-favicon.png'); background-size: cover;"></span>
+          Blog</a>
+        
+        <a href="/projects" class=btn><span class="icon"
+            style="background-image: url('/assets/img/projects-favicon.png'); background-size: cover;"></span>
+          Projects</a>
+         -->
+      </section>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="main_content">
+      <h1 id="who-am-i">Who am I?</h1>
 
 <p>Hey there! I’m Lyuben, a cybersecurity enthusiast and pen testing aficionado. 🕵️‍♂️</p>
 
@@ -88,7 +115,22 @@
 Lyuben</p>
 
 
-      </section>
-    </div>
-  </body>
+    </section>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.querySelector("#menu-toggle");
+      const menuDropdown = document.querySelector(".menu-dropdown");
+
+      menuToggle.addEventListener("change", function () {
+        if (this.checked) {
+          menuDropdown.classList.add("show-dropdown");
+        } else {
+          menuDropdown.classList.remove("show-dropdown");
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>
