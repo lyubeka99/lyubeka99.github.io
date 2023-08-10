@@ -143,7 +143,7 @@ Navigate to the key.
 
 ![key3](/assets/img/projects-img/mr-robot-key-3.webp ){: class="center-image"}
 
-Some awesome resources that can help you during this stage of a CTF - [GTFOBins](https://gtfobins.github.io/){:target="_blank"} [HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation){:target="_blank"}.
+Some awesome resources that can help you during this stage of a CTF - [GTFOBins](https://gtfobins.github.io/){:target="_blank"} and [HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation){:target="_blank"}.
 
 
 # Have fun!
