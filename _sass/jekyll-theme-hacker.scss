@@ -404,3 +404,11 @@ a {
   }
 }
 
+/* Explanation box for concepts/TTPs*/
+.explanation-box {
+  border: 2px solid $conifer; /* Green border */
+  padding: 20px; /* Adds space inside the box for content */
+  margin: 10px 0; /* Adds space around the box */
+  background-color: $body-background; /* Background color for the box */
+  border-radius: 5px; /* Rounded corners for a box */
+}

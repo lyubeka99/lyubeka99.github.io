@@ -148,3 +148,5 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
   .menu-dropdown { display: none; position: absolute; top: 50px; right: 0; background-color: #151515; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; }
   .menu-dropdown li { margin-bottom: 10px; /* Adjust the value to increase or decrease spacing */ }
   .menu-toggle:checked ~ .menu-dropdown { display: block; /* Show the list when checkbox is checked */ transform: scaleY(1); /* Remove the scaleY from here if needed */ opacity: 1; /* Ensure full opacity */ visibility: visible; /* Ensure visibility */ } }
+/* Explanation box for concepts/TTPs*/
+.explanation-box { border: 2px solid #b5e853; /* Green border */ padding: 20px; /* Adds space inside the box for content */ margin: 10px 0; /* Adds space around the box */ background-color: #151515; /* Background color for the box */ border-radius: 5px; /* Rounded corners for a box */ }
