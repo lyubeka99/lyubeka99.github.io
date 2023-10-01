@@ -21,8 +21,7 @@
 title: Lyuben's personal blog
 email: lyubenlp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  # Follow my CTF walkthroughs or read up on my thoughts on all things
-  # Cybersecurity.
+  # Follow my CTF walkthroughs or read up on my thoughts on all things Cybersecurity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lyubeka99

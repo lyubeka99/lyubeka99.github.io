@@ -8,4 +8,4 @@ image: /assets/thumbnails/busqueda-thumbnail.png
 
 ---
 
-## Coming soon!
+Coming soon!
