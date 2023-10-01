@@ -7,3 +7,5 @@ image: /assets/thumbnails/busqueda-thumbnail.png
 > This is the walkthrough of the machine Busqueda on HackTheBox. Coming soon!  
 
 ---
+
+## Coming soon!
