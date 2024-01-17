@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Review of the pro lab Dante by HackTheBox"
+title: "Review of Dante by HackTheBox"
 ---
 
-> The beginner-friendly pro lab Dante is a failry new environment released by HackTheBox (HTB). The lab is quite big and serves well to practise certain penetration testing techniques even though I found it to be quite unrealistic in terms of content and exploitation.
+> The beginner-friendly pro lab Dante is a failry new environment released by HackTheBox (HTB). The lab is quite big and serves well to practise certain penetration testing techniques even though
+I found it to be unrealistic in terms of content and exploitation.
 
 ---
 

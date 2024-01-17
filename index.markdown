@@ -2,22 +2,19 @@
 layout: default
 ---
 
-# Who am I?
+# Welcome!
 
-Hey there! I'm Lyuben, a cybersecurity enthusiast and pen testing aficionado. 🕵️‍♂️
+Welcome to version 1 of my personal blog! Currently, it isn't much. I made it just to have a place for some existing CTF writeups
+and to share my thoughts on matters related to penetration testing and cybersecurity. 
 
-I graduated with a Bachelor's degree in Software Engineering from Eindhoven University of Technology, where my passion for all things cyber took off. Throughout my studies, I geeked out on everything related to security and even tailored my elective courses to dive deep into the world of Cybersecurity.
+Version 2 is currently in development. I plan on releasing a lot more content like writeups, blogs, reviews of tools and certs and even
+tutorials on common techniques, tools, procedures etc., for aspiring offensive security professionals (like myself).
 
-Currently, I'm rockin' it as a SOC Auditor at A-lign. My day-to-day involves diving into cybersecurity standards and making sure businesses have their security controls locked down. Whether it's deciphering Active Directory or conquering the intricacies of AWS and Azure, I'm all about understanding and enhancing security measures.
+Until then, you can find more information about me in the [about me](./about.markdown) page. And if you are interested in my thoughts 
+on interesting cybersec stories, please visit the [blogs](./blog.md) page. Finally, if you want to see me in action, please visit 
+the [projects](./blog.md) page where I release CTF writeups for platforms like HackTheBox and TryHackMe.
 
-What really gets me pumped? Well, when I'm not chasing down security gaps, I'm diving into CTFs like there's no tomorrow. I'm a HacktheBox Certified Penetration Testing Specialist in the making, and I've got my eyes set on becoming an Offensive Security Certified Professional (OSCP).
-
-And guess what? I'm also brewing up something exciting on my blog. I'll be sharing my thoughts on the latest cybersecurity news, walking you through mind-boggling CTFs, and dishing out insights into my cybersecurity journey. So, buckle up, because we're about to dive deep into the world of cyber together!
-
-Feel free to explore my <a href="/assets/placeholder_cv.pdf">resume</a> for all the nitty-gritty details. If you're curious about my journey, my insights, or just want to talk all things cybersecurity, drop me a line. Let's connect!
-
-Catch you on the secure side,<br>
-Lyuben
+More coming soon!
 
 
 
