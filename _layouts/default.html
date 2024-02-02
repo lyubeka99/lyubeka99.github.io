@@ -26,11 +26,11 @@
             <span class="menu-icon">&#9776;</span>
           </label>
           <div class="menu-dropdown">
-            <ul class="menu-list">
-              <li><a href="{{ '/about' | relative_url }}">About Me</a></li>
-              <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-              <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-            </ul>
+              <ul class="menu-list">
+                  <li><a href="{{ '/about' | relative_url }}">About Me</a></li>
+                  <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+                  <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+              </ul>
           </div>
         </div>
       </nav>
@@ -38,21 +38,33 @@
       <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
       <section id="downloads">
-        <!-- Generate buttons, links and icons to CV -->
-        <a href="/assets/placeholder_cv.pdf" class=btn><span class="icon"
-            style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>Download CV</a>
+          <!-- Generate buttons, links and icons to CV -->
+          <a href="/assets/Lyuben_pentest_CV.pdf" class=btn>
+              <span class="icon"
+                    style="background-image: url('/assets/img/cv-favicon.png'); background-size: cover;"></span>CV
+          </a>
+          <a href="https://www.linkedin.com/in/lyuben-petrov-b287bb236" class=btn>
+              <span class="icon"
+                    style="background-image: url('/assets/img/linkedin-favicon.png'); background-size: cover;"></span>LinkedIn
+          </a>
+          <!--
+          <a href="https://github.com/lyubeka99" class=btn>
+              <span class="icon"
+                    style="background-image: url('/assets/img/github-favicon.png'); background-size: cover;"></span>GitHub
+          </a>
+          -->    
 
-        {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-        {% endif %}
+          {% if site.show_downloads %}
+          <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+          <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+          {% endif %}
 
-        <!-- Generate buttons, links and icons to pages -->
-        <!-- {% for page in site.pages-info %}
-        <a href="{{ '/' | append: page.name-link | relative_url }}" class=btn><span class="icon"
-            style="background-image: url('/assets/img/{{ page.name-favicon}}-favicon.png'); background-size: cover;"></span>
-          {{ page.name-big }}</a>
-        {% endfor %} -->
+          <!-- Generate buttons, links and icons to pages -->
+          <!-- {% for page in site.pages-info %}
+    <a href="{{ '/' | append: page.name-link | relative_url }}" class=btn><span class="icon"
+        style="background-image: url('/assets/img/{{ page.name-favicon}}-favicon.png'); background-size: cover;"></span>
+      {{ page.name-big }}</a>
+    {% endfor %} -->
       </section>
     </div>  
   </header>

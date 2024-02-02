@@ -4,10 +4,20 @@ permalink: /about/
 ---
 # Resume
 
-Hello, I am Lyuben Petrov, I am an aspiring penetration tester. As a software engineering graduate from the Eindhoven University of 
-Technology, I have a solid background in computer systems, networks, and operating systems. As well as programming experience in Java, 
-SQL and Python, among others. Obtaining my degree at this prestigious university required me to build an impeccable work ethic and to develop
-a detail-oriented critical-thinking mindset.
+<div class="image-and-text">
+  
+  <div class="text">
+    <p>
+      Hello, I am Lyuben Petrov, I am an aspiring penetration tester. As a software engineering graduate from the Eindhoven University of 
+      Technology, I have a solid background in computer systems, networks, and operating systems. As well as programming experience in Java, 
+      SQL and Python, among others. Obtaining my degree at this prestigious university required me to build an impeccable work ethic and to develop
+      a detail-oriented critical-thinking mindset.
+    </p>
+  </div>
+  <img src="/assets/img/photo.PNG" alt="Alt Text" style="width: 17%; height: auto; border: 2px solid #b5e853; padding: 5px;">
+</div>
+
+
 
 Transitioning in the professional realm, I commenced my career as a SOC auditor at A-LIGN where I delved deep into understanding how 
 companies structure their security, the tools they employ for protection and monitoring, and the intricacies of incident response. My tenure 
@@ -32,8 +42,8 @@ I got the following feedback for my report:
 
 "Overall your report was excellent, well presented, precise, neat, and professional."
 
-You can visit my Credly badge [here](https://www.credly.com/badges/868cf45d-aed1-4ea4-a893-bada76df3309/public_url).
+You can view my Credly badge [here](https://www.credly.com/badges/868cf45d-aed1-4ea4-a893-bada76df3309/public_url).
 
 ### Dante Pro Lab from Hack The Box
-![Dante Pro Lab certificate of completion](/assets/other/dante.PNG){: width="50%" class="center-image" style="border: 2px solid #b5e853; padding: 5px;"}
+![Dante Pro Lab certificate of completion](/assets/other/dante.PNG){: width="70%" class="center-image" style="border: 2px solid #b5e853; padding: 5px;"}
 

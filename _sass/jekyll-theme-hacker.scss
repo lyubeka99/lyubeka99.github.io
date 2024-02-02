@@ -412,3 +412,19 @@ a {
   background-color: $body-background; /* Background color for the box */
   border-radius: 5px; /* Rounded corners for a box */
 }
+
+
+/* This is for text-next-to-image effect - not very useful */
+.image-and-text {
+    display: flex;
+}
+
+.image-and-text img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.image-and-text .text {
+    flex: 1;
+}

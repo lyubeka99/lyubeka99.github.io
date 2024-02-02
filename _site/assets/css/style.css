@@ -150,3 +150,10 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
   .menu-toggle:checked ~ .menu-dropdown { display: block; /* Show the list when checkbox is checked */ transform: scaleY(1); /* Remove the scaleY from here if needed */ opacity: 1; /* Ensure full opacity */ visibility: visible; /* Ensure visibility */ } }
 /* Explanation box for concepts/TTPs*/
 .explanation-box { border: 2px solid #b5e853; /* Green border */ padding: 20px; /* Adds space inside the box for content */ margin: 10px 0; /* Adds space around the box */ background-color: #151515; /* Background color for the box */ border-radius: 5px; /* Rounded corners for a box */ }
+
+/* This is for text-next-to-image effect - not very useful */
+.image-and-text { display: flex; }
+
+.image-and-text img { width: 200px; height: auto; margin-right: 20px; /* Adjust the margin as needed */ }
+
+.image-and-text .text { flex: 1; }
