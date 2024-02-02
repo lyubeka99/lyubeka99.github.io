@@ -26,6 +26,14 @@ to always be better and stay ahead of the curve.
 # Accolades
 ### Certified Penetration Testing Specialist (CPTS) from Hack The Box
 
+![HTB CPTS certificate](/assets/other/HTB_CPTS.PNG){: width="70%" class="center-image" style="border: 2px solid #b5e853; padding: 5px;"}
+
+I got the following feedback for my report:
+
+"Overall your report was excellent, well presented, precise, neat, and professional."
+
+You can visit my Credly badge [here](https://www.credly.com/badges/868cf45d-aed1-4ea4-a893-bada76df3309/public_url).
+
 ### Dante Pro Lab from Hack The Box
-![Branching](/assets/other/dante.png){: width="50%" class="center-image" style="border: 2px solid #b5e853; padding: 5px;"}
+![Dante Pro Lab certificate of completion](/assets/other/dante.png){: width="50%" class="center-image" style="border: 2px solid #b5e853; padding: 5px;"}
 
