@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# TESTING
-
 # Welcome!
 
 Welcome to version 1 of my personal blog! Currently, it isn't much. I made it just to have a place for some existing CTF writeups
