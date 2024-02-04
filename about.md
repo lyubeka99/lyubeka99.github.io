@@ -14,9 +14,8 @@ permalink: /about/
       a detail-oriented critical-thinking mindset.
     </p>
   </div>
-  <img src="/assets/img/photo.PNG" alt="Alt Text" style="width: 17%; height: auto; border: 2px solid #b5e853; padding: 5px;">
+  <img src="/assets/img/photo.PNG" alt="Alt Text" style="width: 17%; height: 18.3%; border: 2px solid #b5e853; padding: 5px;">
 </div>
-
 
 
 Transitioning in the professional realm, I commenced my career as a SOC auditor at A-LIGN where I delved deep into understanding how 

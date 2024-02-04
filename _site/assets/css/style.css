@@ -154,6 +154,6 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 /* This is for text-next-to-image effect - not very useful */
 .image-and-text { display: flex; }
 
-.image-and-text img { width: 200px; height: auto; margin-right: 20px; /* Adjust the margin as needed */ }
+.image-and-text img { width: 17%; height: auto; margin-right: 20px; /* Adjust the margin as needed */ }
 
 .image-and-text .text { flex: 1; }
