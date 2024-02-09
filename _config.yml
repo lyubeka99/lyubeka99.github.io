@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+
 # Choose a default layout for pages
 pages-info:
   - name-big: "About"

@@ -11,5 +11,15 @@ layout: default
 {{content}}
 
 {% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+<!-- The script below adds automatic numberic to all figcaptions. -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var figcaptions = document.querySelectorAll('figcaption');
+        figcaptions.forEach(function (figcaption, index) {
+            figcaption.textContent = 'Fig. ' + (index + 1) + ': ' + figcaption.textContent;
+        });
+    });
+</script>

@@ -7,6 +7,10 @@ $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 $container-max-width: 1000px;
+/* Custom colors */
+$code-color: #D0D0D0;
+$highlight-command-color: #ADD8E6;
+$highlight-output-color: #fff799;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
@@ -427,4 +431,20 @@ a {
 
 .image-and-text .text {
     flex: 1;
+}
+
+/**/
+.grey-code {
+    color: $code-color;
+}
+
+.highlight-command {
+    background: $highlight-command-color;
+    color: black;
+}
+
+
+.highlight-output {
+    background: $highlight-output-color;
+    color: black;
 }
