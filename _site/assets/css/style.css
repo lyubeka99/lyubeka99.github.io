@@ -159,9 +159,12 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 .image-and-text .text { flex: 1; }
 
-/**/
+/* Colors to use in code snippets. */
 .grey-code { color: #D0D0D0; }
 
 .highlight-command { background: #ADD8E6; color: black; }
 
 .highlight-output { background: #fff799; color: black; }
+
+/* Style for teh figure captions. */
+.figcaption-style { padding-bottom: 20px; }

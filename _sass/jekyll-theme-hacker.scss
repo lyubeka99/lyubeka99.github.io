@@ -433,7 +433,8 @@ a {
     flex: 1;
 }
 
-/**/
+
+/* Colors to use in code snippets. */
 .grey-code {
     color: $code-color;
 }
@@ -447,4 +448,9 @@ a {
 .highlight-output {
     background: $highlight-output-color;
     color: black;
+}
+
+/* Style for teh figure captions. */
+.figcaption-style {
+    padding-bottom: 20px;
 }
