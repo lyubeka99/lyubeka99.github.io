@@ -212,7 +212,7 @@ if __name__ == "__main__":
 </figure>
 
 After saving my changes, I ran the script again. It seems like the script was able to correctly pull the root directory from the 
-server (`documentRoot`). The value of `upload_tmp_dir` seems to be the string "<i>no value</i>". However, executing commands still 
+server (`documentRoot`). The value of `upload_tmp_dir` seems to be the string "&lt;i&gt;no value&lt;/i&gt;". However, executing commands still 
 did not work.
 
 <pre class="grey-code">
